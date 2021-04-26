@@ -5,3 +5,8 @@
 04-Relative-Paths.zip
 05-Github-Pages-Personal.zip
 050-mock-up.jpg
+node_modules/
+.vscode
+.idea/
+thumbs.db
+.env
