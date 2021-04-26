@@ -27,6 +27,9 @@
           <a href="#what-you-do">What You Do</a>
         </li>
         <li>
+          <a href="https://google.com">Google It!</a>
+        </li>
+        <li>
           <a href="#your-trainers">Your Trainers</a>
         </li>
         <li>
@@ -36,50 +39,68 @@
     </nav>
   </header>
 
- 
-
   <!-- hero/jumbotron -->
   <section class="hero">
     <div class="hero-form">
       <h3>Get Started Today</h3>
       <p>Fill out this form and one of our trainers will schedule a consult</p>
-        <!--Add form element-->
-        <form> 
-          <label for="name">Enter full name:</label> <br>
-          <input type="text" placeholder="Your Name" name="name" id="name" class="form input"> <br>
-          <label for="email">Enter email address</label> <br>
-          <input type="email" placeholder="Email Address" name="email" id="email" class="form input"> <br>
-          <label for="phone">Enter a phone number:</label> <br>
-          <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form input">
-          <p>
-              Have you worked out with a trainer before? 
-              <input type="radio" name="trainer-confirm" id="trainer-yes" />
-              <label for="trainer-yes">Yes</label>
-              <input type="radio" name="trainer-confirm" id="trainer-no" />
-              <label for="trainer-no">No</label>
-          </p>
-          <p>
-            <label for="checkbox" >
-              To acknowledge that you are at least 18 years of age, check this box ---->
-            </label>
-            <input type="checkbox" name="age-confirm" id="checkbox" />
-          </p>
-          <button type="submit">
-            Get running!
-          </button>
-        </form>
-    
+      <form>
+        <label for="name">Enter full name:</label>
+        <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
+        <label for="email">Enter email address:</label>
+        <input type="text" placeholder="Email Address" name="email" id="email" class="form-input" />
+        <label for="phone">Enter a telephone number:</label>
+        <input type="text" placeholder="Phone Number" name="phone" id="phone" class="form-input" />
+        <p>
+          Have you worked out with a trainer before?
+          <input type="radio" name="trainer-confirm" id="trainer-yes" />
+          <label for="trainer-yes">Yes</label>
+          <input type="radio" name="trainer-confirm" id="trainer-no" />
+          <label for="trainer-no">No</label>
+        </p>
+        <p>
+          <label for="checkbox">
+            I acknowledge that I am at least 18 years of age.
+          </label>
+          <input type="checkbox" name="checkpoint1" id="checkbox" />
+        </p>
+        <button type="submit">
+          Get running!
+        </button>
+      </form>
     </div>
   </section>
 
   <!-- "what we do" section -->
-  <section>
+  <section id="what-we-do">
     <h2>What We Do</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
   </section>
 
   <!-- "what you do" section -->
-  <section>
+  <section id="what-you-do">
     <h2>What You Do</h2>
+      <div>
+        <h3>Step1: Fill out the form above.</h3>
+        <p>You're already here, so why not?</p>
+      </div>
+
+      <div>
+        <h3>Step 2: Consult one of our trainers.</h3>
+        <p>Are you here to build muscle, lose weight, or just feel good?</p>
+      </div>
+
+      <div>
+        <h3>Step 3: Get Running</h3>
+        <p>Hit the ground running (literally) once your trainer lays out your plan. </p>
+      </div>
+
+      <div> 
+        <h3>Step 4: See results!</h3>
+        <p>Bi-Weekly check-ins with your trainer will keep you focused.</p>
+      </div>
   </section>
 
   <!-- "meet the trainers" section -->
